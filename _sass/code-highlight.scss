@@ -1,0 +1,205 @@
+$cream: #faf6e4;
+$light-gray: #dee5e7;
+
+$darker-blue: #122b3b;
+$dark-blue: #4e5d62;
+$mid-blue: #6c8b9f;
+$light-blue: #a8e1fe;
+$bright-blue: #4df4ff;
+
+$red: #cc0000;
+$yellow: #f6dd62;
+$green: #b2fd6d;
+
+.highlight {
+
+    table {
+        td {
+            padding: 5px;
+
+            pre {
+                background-color: transparent !important;
+            }
+        }
+
+        pre {
+            margin: 0;
+            background-color: unset !important;
+        }
+    }
+
+    color: $cream;
+    background-color: $darker-blue;
+
+    .gl {
+        color: $light-gray;
+        background-color: $dark-blue;
+    }
+
+    .gp {
+        color: $light-blue;
+        font-weight: bold;
+    }
+
+    .c,
+    .ch,
+    .cd,
+    .cm,
+    .cpf,
+    .c1,
+    .cs {
+        color: $mid-blue;
+        font-style: italic;
+    }
+
+    .cp {
+        color: $green;
+        font-weight: bold;
+    }
+
+    .err {
+        color: $cream;
+        background-color: $red;
+    }
+
+    .gr {
+        color: $red;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .k,
+    .kd,
+    .kv {
+        color: $yellow;
+        font-weight: bold;
+    }
+
+    .o,
+    .ow {
+        color: $bright-blue;
+        font-weight: bold;
+    }
+
+    .p,
+    .pi {
+        color: $bright-blue;
+    }
+
+    .gd {
+        color: $red;
+    }
+
+    .gi {
+        color: $green;
+    }
+
+    .ge {
+        font-style: italic;
+    }
+
+    .gs {
+        font-weight: bold;
+    }
+
+    .gt {
+        color: $light-gray;
+        background-color: #4e5d62;
+    }
+
+    .kc {
+        color: #f696db;
+        font-weight: bold;
+    }
+
+    .kn,
+    .kp,
+    .kr,
+    .gh,
+    .gu {
+        color: #ffb000;
+        font-weight: bold;
+    }
+
+    .kt,
+    .no,
+    .nc,
+    .nd,
+    .nn,
+    .bp,
+    .ne {
+        color: #b2fd6d;
+        font-weight: bold;
+    }
+
+    .nl,
+    .nt {
+        color: #ffb000;
+        font-weight: bold;
+    }
+
+    .m,
+    .mb,
+    .mf,
+    .mh,
+    .mi,
+    .il,
+    .mo,
+    .mx,
+    .ld,
+    .ss {
+        color: #f696db;
+        font-weight: bold;
+    }
+
+    .s,
+    .sa,
+    .sb,
+    .dl,
+    .sd,
+    .s2,
+    .sh,
+    .sx,
+    .sr,
+    .s1 {
+        color: #fff0a6;
+        font-weight: bold;
+    }
+
+    .se,
+    .sc,
+    .si {
+        color: #4df4ff;
+        font-weight: bold;
+    }
+
+    .nb {
+        font-weight: bold;
+    }
+
+    .ni {
+        color: #999999;
+        font-weight: bold;
+    }
+
+    .w,
+    .go {
+        color: #BBBBBB;
+    }
+
+    .nf,
+    .fm,
+    .py,
+    .na {
+        color: #a8e1fe;
+    }
+
+    .nv,
+    .vc,
+    .vg,
+    .vi,
+    .vm {
+        color: #a8e1fe;
+        font-weight: bold;
+    }
+}
